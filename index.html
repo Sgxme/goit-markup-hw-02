@@ -3,11 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="./index.html">WebStudio</a>
-      <nav>
+      <nav class="nav">
+        <a href="./index.html" class="webstudio"
+          ><span class="web">Web</span>Studio</a
+        >
         <ul>
           <li>
             <a href="./index.html">Studio</a>
@@ -20,48 +36,50 @@
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mail" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-text">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
-      <section>
+      <section class="features">
         <h2>Our Features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="features-h3">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="features-h3">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="features-h3">Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="features-h3">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -70,7 +88,7 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="h2">Our Team</h2>
         <ul>
           <li>
             <img
@@ -79,8 +97,8 @@
               height="260"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="member">Mark Guerrero</h3>
+            <p class="profession">Product Designer</p>
           </li>
           <li>
             <img
@@ -89,8 +107,8 @@
               height="260"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="member">Tom Ford</h3>
+            <p class="profession">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -99,8 +117,8 @@
               height="260"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="member">Camila Garcia</h3>
+            <p class="profession">Marketing</p>
           </li>
           <li>
             <img
@@ -109,8 +127,55 @@
               height="260"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="member">Daniel Wilson</h3>
+            <p class="profession">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="h2">Our Portfolio</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/img.jpg" alt="Banking App" />
+              <h3 class="h2-h3">Banking App</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/img-1.jpg" alt="Cashless Payment" />
+              <h3 class="h2-h3">Cashless Payment</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/img-2.jpg" alt="Meditation App" />
+              <h3 class="h2-h3">Meditation App</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/img-3.jpg" alt="Taxi Service" />
+              <h3 class="h2-h3">Taxi Service</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/img-4.jpg" alt="Screen Illustrations" />
+              <h3 class="h2-h3">Screen Illustrations</h3>
+              <p>Design</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/img-5.jpg" alt="Online Courses" />
+              <h3 class="h2-h3">Online Courses</h3>
+              <p>Marketing</p>
+            </a>
           </li>
         </ul>
       </section>
