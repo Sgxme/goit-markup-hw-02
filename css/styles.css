@@ -143,7 +143,7 @@ font-weight: 700;
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
 
 .team {
@@ -196,13 +196,16 @@ font-weight: 700;
 .contacts .tel:hover,
 .contacts .tel:focus,
 .contacts .mail:hover,
-.contacts .mail:focus,
-.order:hover,
-.order:focus {
+.contacts .mail:focus, {
     color: #404BBF;
 }
 
 .navigation-studio:active {
     color: #404BBF;
     text-decoration: underline;
+}
+
+.order:hover,
+.order:focus {
+    background-color: #404BBF;
 }
