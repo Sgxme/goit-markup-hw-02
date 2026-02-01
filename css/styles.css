@@ -196,7 +196,7 @@ font-weight: 700;
 .contacts .tel:hover,
 .contacts .tel:focus,
 .contacts .mail:hover,
-.contacts .mail:focus, {
+.contacts .mail:focus {
     color: #404BBF;
 }
 
