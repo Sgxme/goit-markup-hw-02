@@ -4,17 +4,20 @@ ul, ol {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455
+    color: #434455;
+    background-color: #ffffff;
 }
 
 a {
     text-decoration: none;
 }
 
-header,
-.teamcard {
+header {
     background-color: #ffffff;
-    
+}
+
+.teamcard {
+    background-color: #ffffff;   
 }
 
 .hero {
@@ -42,10 +45,6 @@ font-weight: 700;
     text-align: left;
     cursor: pointer;
     color: #ffffff;
-}
-
-.order:hover {
-    background-color: #404BBF;
 }
 
 .web {
@@ -147,11 +146,6 @@ font-weight: 700;
     color: #2E2F42;
 }
 
-.portfolio-type a:active,
-a:visited {
-    color: #2E2F42;
-}
-
 .team {
     background-color: #F4F4FD;
 }
@@ -178,18 +172,33 @@ a:visited {
 }
 
 .navigation-list-item {
-    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.navigation-studio {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .navigation-list-item:hover,
+.navigation-list-item:focus,
 .navigation-studio:hover,
+.navigation-studio:focus,
 .contacts .tel:hover,
-.contacts .mail:hover {
+.contacts .tel:focus,
+.contacts .mail:hover,
+.contacts .mail:focus,
+.order:hover,
+.order:focus {
     color: #404BBF;
 }
 
